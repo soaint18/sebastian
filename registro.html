@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="common/css/materialize.css">
+</head>
+<body>
+	<!-- Barra de navegación-->
+	<nav class="red darken-3">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="index.html" class="brand-logo">
+				<i class="large material-icons">child_care</i>
+				SocialGamers
+			</a>
+			
+			<ul class="right hide-on-med-and-down">
+				<li><a href="login.php">Iniciar sesión</a></li>
+				<li><a href="juegos.php">Juegos</a></li>
+				<li><a href="destacados.php">Destacados</a></li>
+				<li><a href="acerca.html">Acerca de</a></li>
+			</ul>
+
+			<ul id="nav-mobile" class="sidenav">
+				<li><a href="login.php">Iniciar sesión</a></li>
+				<li><a href="juegos.php">Juegos</a></li>
+				<li><a href="destacados.php">Destacados</a></li>
+				<li><a href="acerca.html">Acerca de</a></li>
+			</ul>
+
+			<a href="#" data-target="nav-mobile" class="sidenav-trigger">
+				<i class="material-icons">menu</i>
+			</a>
+		</div>
+    </nav>
+
+	<section class="page-section">
+		<div class="container">
+			<div class="row">
+				<h4>Crea cuenta</h4>
+				<form action="php/admin/delmodus/altaUsuario2.php" method="post" enctype='multipart/form-data'>
+					<div class="col l6 s12">
+   	 					<label>
+   	 						Ingrese nombre de usuario:
+   	 						<input type="text" name="nombre" required>
+   	 					</label>
+   	 					<label>
+							Ingrese una contraseña:
+   	 						<input type="password" name="pass" required>		
+   	 					</label>
+					</div>				
+					<div class="col l6 s12">
+						<label>Ingrese foto:
+							<input type="file" name="foto">
+						</label>	
+					</div>
+          <br><br>
+					<div class="col s12">            
+						<input type="submit" name="submit" value="registrar">
+					</div>
+				</form>
+   	 		</div>
+   	 	</div>
+   	</section>
+    
+  <!-- Pie de pagina -->
+  <footer class="page-footer red darken-3"">
+    <div class="container">
+      <div class="row"> 
+        <div class="col l6 s12">
+          <h5 class="white-text text-accent-3 center">Foro</h5>
+          <p class="center">
+            ¡ Participa junto al resto de usuarios y comparte opiniones en el chat !
+          </p>
+        </div>
+        <div class="col l6 s12">
+          <h5 class="white-text text-accent-3 center">Reseñas </h5>
+          <p class="center">
+           ¡ Puntúa tus juego favoritos ! 
+          </p>
+          <div class="container">
+            <div class="row center">
+              <h5 class="header center">Visitanos en nuestras redes sociales</h5>
+            </div>
+            <div class="row center">
+              <div class="col m4 s12">
+                <span>Facebook</span>
+              </div>
+              <div class="col m4 s12">
+                <span>Twitter</span>
+              </div>
+              <div class="col m4 s12">
+                <span>Github</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row center">
+          <div>
+            <p>Proyecto realizado como práctica final de formación profesional de grado superior D.A.W</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </footer>
+	
+	
+    <!-- Scripts utilizados-->
+  <script src="common/js/jquery.js"></script>
+  <script src="common/js/materialize.js"></script>
+  <script src="common/js/script_menu.js"></script>
+</body>
