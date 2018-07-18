@@ -1,0 +1,34 @@
+.fotoAdmin, #preview img{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cirfoto{
+	margin: 0 auto;
+  padding: 0 auto;
+	width: 100px ;
+	height: 100px ;
+	border-radius: 50%;
+}
+
+/*Para juegos */
+.carta{
+  display:inline-block;
+  margin-right:5px;
+  width:200px;
+  vertical-align: top;
+}
+/*.carta img{
+  filter: blur(1px);
+}
+*/
+.cirMedFoto{
+  margin: 0;
+  padding: 0;
+  width: 250px ;
+  height: 250px ;
+  border-radius: 50%;
+}
